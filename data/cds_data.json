@@ -1,0 +1,244 @@
+{
+  "birth": {
+    "gross_motor": [
+      "Has head lag on pulling up",
+      "Primitive reflexes present"
+    ],
+    "vision_fine_motor": [
+      "Turns eyes towards large and diffuse source of light",
+      "Grasp reflex present"
+    ],
+    "hearing_speech_recep": [
+      "Has a startle reaction to sudden loud sounds"
+    ],
+    "hearing_speech_expressive": [
+      "Cries when hungry or uncomfortable"
+    ],
+    "socio_emotional": [
+      "Sleeps and feeds",
+      "Calms down when comforted"
+    ]
+  },
+  "6_weeks": {
+    "gross_motor": [
+      "Has head in line with the body or vertical suspension"
+    ],
+    "vision_fine_motor": [
+      "Fixes and follows past midline"
+    ],
+    "hearing_speech_recep": [
+      "Quietens to mother's voice"
+    ],
+    "hearing_speech_expressive": [
+      "Coos"
+    ],
+    "socio_emotional": [
+      "Intermittent eye contact",
+      "Social smile"
+    ]
+  },
+  "3_months": {
+    "gross_motor": [
+      "Holds head at 45-90 degrees when prone"
+    ],
+    "vision_fine_motor": [
+      "Fixes and follows 180 degrees",
+      "Hands unfisted",
+      "Grasps objects",
+      "Has hand regard"
+    ],
+    "hearing_speech_recep": [
+      "Orients to sound"
+    ],
+    "hearing_speech_expressive": [
+      "Coos and laughs"
+    ],
+    "socio_emotional": [
+      "Sustained eye contact",
+      "Smiles spontaneously",
+      "Shows excitement at familiar pleasant situation such as feeding, bathing"
+    ]
+  },
+  "6_months": {
+    "gross_motor": [
+      "Rolls over",
+      "Sits with a rounded back (no support)",
+      "Sits in a tripod position"
+    ],
+    "vision_fine_motor": [
+      "Reaches for objects",
+      "Transfers from 1 hand to the other"
+    ],
+    "hearing_speech_recep": [
+      "Turns and looks in direction of sound"
+    ],
+    "hearing_speech_expressive": [
+      "Babbles"
+    ],
+    "socio_emotional": [
+      "Stranger anxiety",
+      "Responds to name"
+    ]
+  },
+  "9_months": {
+    "gross_motor": [
+      "Stands with straight back",
+      "Crawls",
+      "Pulls to stand",
+      "Stands with support"
+    ],
+    "vision_fine_motor": [
+      "Has an immature pincer grasp",
+      "Bangs 2 cubes held in hand"
+    ],
+    "hearing_speech_recep": [
+      "Understands 'No' and 'Bye'"
+    ],
+    "hearing_speech_expressive": [
+      "Waves bye",
+      "Claps hands",
+      "Plays peek-a-boo"
+    ]
+  },
+  "12_months": {
+    "gross_motor": [
+      "Stands without support",
+      "Walks with one hand held"
+    ],
+    "vision_fine_motor": [
+      "Has a mature pincer grasp",
+      "Cast objects"
+    ],
+    "hearing_speech_recep": [
+      "Follows 1 step command with gesture"
+    ],
+    "hearing_speech_expressive": [
+      "Says 'mama', 'papa' and 2-3 words with meaning"
+    ],
+    "socio_emotional": [
+      "Points to indicate wants; joint attention",
+      "Plays with cause and effect toys",
+      "imitates other gestures",
+      "Spontaneous showing"
+    ]
+  },
+  "18_months": {
+    "gross_motor": [
+      "Walks independently",
+      "Stoops and recovers",
+      "Walks up stairs with one hand held"
+    ],
+    "vision_fine_motor": [
+      "Scribbles",
+      "Builds a tower with 3 blocks"
+    ],
+    "hearing_speech_recep": [
+      "Follows 1 step command without gesture"
+    ],
+    "hearing_speech_expressive": [
+      "Says ~10 single words with meaning"
+    ],
+    "socio_emotional": [
+      "Has parallel play",
+      "Has functional play",
+      "Eats with a spoon",
+      "Drinks from a cup"
+    ]
+  },
+  "2_years": {
+    "gross_motor": [
+      "Runs well",
+      "Jumps with 2 feet off ground",
+      "Kicks a ball"
+    ],
+    "vision_fine_motor": [
+      "Copies a vertical line",
+      "Builds tower of 6 cubes"
+    ],
+    "hearing_speech_recep": [
+      "Follows 2 step command"
+    ],
+    "hearing_speech_expressive": [
+      "Says 2-3 word phrases",
+      "Has 50+ words"
+    ],
+    "socio_emotional": [
+      "Takes off some clothing items",
+      "Helps to put on clothing"
+    ]
+  },
+  "3_years": {
+    "gross_motor": [
+      "Walks up and down stairs with alternate feet",
+      "Pedals tricycle",
+      "Stand on 1 foot for 3 seconds"
+    ],
+    "vision_fine_motor": [
+      "Copies a circle",
+      "Copies a cross",
+      "Builds a tower of 9 blocks"
+    ],
+    "hearing_speech_recep": [
+      "Follows 3 step command"
+    ],
+    "hearing_speech_expressive": [
+      "Says 3-4 word phrases",
+      "Knows name, age, gender",
+      "Knows verbs and adjectives",
+      "Identify shapes",
+      "Counts to 3",
+      "Matches colors"
+    ],
+    "socio_emotional": [
+      "Has interactive play",
+      "Names friends",
+      "Toilet trained"
+    ]
+  },
+  "4_years": {
+    "gross_motor": [
+      "Hops on 1 foot",
+      "Has skills in ball games"
+    ],
+    "vision_fine_motor": [
+      "Copies a square",
+      "Builds a tower of 12 blocks"
+    ],
+    "hearing_speech_recep": [
+      "Can follow 'wh' questions (i.e. what, where)"
+    ],
+    "hearing_speech_expressive": [
+      "Uses correct grammer in speech",
+      "Uses pronouns, plurals, and prepositions",
+      "Knows 4 colors",
+      "Counts to 4"
+    ],
+    "socio_emotional": [
+      "Has role play",
+      "Dresses with minimal help"
+    ]
+  },
+  "5_years": {
+    "gross_motor": [
+      "Stands on 1 foot for 10 seconds",
+      "Skips"
+    ],
+    "vision_fine_motor": [
+     "Copies a triangle",
+      "Draws a person with 6-8 body parts"
+    ],
+    "hearing_speech_recep": [
+      "Can follow rules"
+    ],
+    "hearing_speech_expressive": [
+      "Speaks fluently with long descriptions",
+      "Tells stories",
+      "Counts to 10",
+      "Knows alphabets by rote"
+    ],
+    "socio_emotional": [
+      "Has a group of friends",
+      "Follows games with rules"
+    ]
+  }
+}
