@@ -30,6 +30,10 @@ def get_wrong_answers(correct_age: str, domain: str, cds_data: dict[str, dict[st
     wrong_answers = []
     for age in ages_to_take:
         wrong_answers.extend(cds_data[age][domain])
+    domains = list(cds_data[correct_age].keys())
+    wrong_domains = [dm for dm in domains if dm != domain]
+    for wrong_dm in wrong_domains:
+        wrong_answers.extend(cds_data[correct_age][wrong_dm])
     return random.sample(wrong_answers, 3)
 
 
@@ -51,8 +55,10 @@ def build_dev_milestone_question(correct_ans: str, wrong_answers: list[str], age
 def display_dev_milestone_question(question_data: dict[str, str]) -> None:
     display_age = AGE_INTERNAL_TO_DISPLAY_MAPPING[question_data['age']]
     display_domain = DOMAIN_INTERNAL_TO_DISPLAY_MAPPING[question_data['domain']]
-    print(f'Child\'s age: {display_age}')
-    print(f'Pick the correct developmental milestone for the domain: {display_domain}')
+    if display_age != 'Birth':
+        print(f'Pick the most fitting developmental milestone for a child of {display_age} for the domain: {display_domain}')
+    else:
+        print(f'Pick the most fitting developmental milestone for a newborn child for the domain: {display_domain}')
     for i in range(1, 5):
         print(f'{i}. {question_data[str(i)]}')
     print('\ne: Exit exercise')
@@ -74,3 +80,25 @@ def test_question(question_data: dict[str, str]) -> bool:
             return True
         else:
             print('Unrecognized input. Try again.')
+
+
+def generate_question(cds_data: dict[str, dict[str, list[str]]], qn_type: str) -> dict[str, str]:
+    if qn_type == 'dev_milestone':
+        ages = list(cds_data.keys())
+        age = random.choice(ages)
+        domains = list(cds_data[age].keys())
+        domain = random.choice(domains)
+        correct_ans = random.choice(cds_data[age][domain])
+        wrong_answers = get_wrong_answers(correct_age=age, domain=domain, cds_data=cds_data)
+        qn_data = build_dev_milestone_question(correct_ans=correct_ans, wrong_answers=wrong_answers,
+                                               age=age, domain=domain)
+        return qn_data
+    else:
+        return {}
+
+
+def begin_dev_milestone_exercise():
+    exit_loop = False
+    while not exit_loop:
+        qn = generate_question(cds_data=CDS_DATA, qn_type='dev_milestone')
+        exit_loop = test_question(qn)
